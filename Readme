@@ -1,0 +1,12 @@
+npm init
+npm i express bcryptjs dotenv express-async-handler jsonwebtoken mongoose
+npm i nodemon  --save-dev // so it will not be downloaded with the client , only for developpment purposes
+
+in package.json : 
+see line 3
+ "type" : "module", 
+ this one is to write import express instead of require express
+
+see line 8
+"start": "nodemon server.js",
+to type npm start and nodemon is run
